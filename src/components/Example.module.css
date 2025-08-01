@@ -1,8 +1,0 @@
-/* Variable Imports */
-@import '../variables.css';
-
-.example {
-  color: lightcoral;
-  font-family: var(--ff-base);
-  font-size: 24px;
-}

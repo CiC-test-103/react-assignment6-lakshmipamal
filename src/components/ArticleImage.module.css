@@ -1,0 +1,39 @@
+/* Variable Imports */
+@import '../variables.css';
+
+.article-image {
+  display: flex;  
+  flex-direction: row;
+  height: 100%;
+  max-width: 40%  ;
+  background-color: white;
+  border-radius: 15px;
+  float: left;
+  font-family: var(--ff-base);
+  font-size: 24px;
+}
+
+.article-image img {
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+
+@media screen and (max-width: 375px) {
+  .article-image {
+    max-height: 40%;
+    max-width: 100%;
+    float: none;
+  }
+  
+  .article-image img {
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 15px;
+    width: 100%;
+  }
+
+  
+}

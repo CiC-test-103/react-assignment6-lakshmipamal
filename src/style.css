@@ -16,13 +16,14 @@
 body {
   /* 3. Add accessible line-height */
   line-height: 1.5;
+  background-color: aliceblue;
+  align-items: center;
   /* 4. Improve text rendering */
   -webkit-font-smoothing: antialiased;
 }
 /* 5. Improve media defaults */
 img, picture, video, canvas, svg {
-  display: block;
-  max-width: 100%;
+  /*max-width: 100%;*/
 }
 /* 6. Inherit fonts for form controls */
 input, button, textarea, select {
